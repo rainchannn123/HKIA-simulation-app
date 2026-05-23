@@ -1,0 +1,28 @@
+[airport]
+icao = "VHHH"
+name = "Hong Kong International Airport"
+timezone = "Asia/Hong_Kong"
+sim_speed = 60.0  # 1 real second = 60 sim seconds
+
+[[runways]]
+id = "07L"
+length_m = 3800
+heading_deg = 70
+
+[[runways]]
+id = "07R"
+length_m = 3600
+heading_deg = 70
+
+[[terminals]]
+id = "T1"
+gates = 50
+checkin_desks = 200
+security_lanes = 40
+immigration_booths = 60
+
+[[terminals]]
+id = "Midfield"
+gates = 23
+checkin_desks = 80
+security_lanes = 20
